@@ -5,6 +5,7 @@
 }
 
 :root {
+  --button-background: white;
   --text-color: white;
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.05);
@@ -14,7 +15,7 @@
 }
 
 .light {
-  --invert-filter: invert(1)
+  --invert-filter: invert(1);
   --text-color: black;
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
