@@ -9,9 +9,9 @@ function toggleMode() {
   const img = document.querySelector("#profile img")
 
   if (html.classList.contains("light")) {
-    img?.setAttribute("src", "./src/assets/logo-circle.png")
+    img?.setAttribute("src", "./images/logo-circle.png")
   } else {
-    img?.setAttribute("src", "./src/assets/logo-white-circle.png")
+    img?.setAttribute("src", "./images/logo-white-circle.png")
   }
 }
 
@@ -20,7 +20,7 @@ function App() {
     <div id="container">
       <div id="profile">
         <img
-          src="./src/assets/logo-white-circle.png"
+          src="./images/logo-white-circle.png"
           alt="Logo Li Tech"
         />
         <p>@litech</p>
