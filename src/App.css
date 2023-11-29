@@ -11,7 +11,7 @@
   --surface-color: rgba(255, 255, 255, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color: rgba(255, 255, 255, 0.2);
-  --switch-bg-url: url(/sun.svg) black;
+  --switch-bg-url: url(/sun.svg);
 }
 
 .light {
@@ -21,7 +21,7 @@
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color: rgba(0, 0, 0, 0.1);
-  --switch-bg-url: url(/moon-stars.svg) white;
+  --switch-bg-url: url(/moon-stars.svg);
 }
 
 body {
@@ -81,6 +81,10 @@ body * {
   z-index: 1;
   transform: translateY(-50%);
   animation: slide-back 0.2s;
+}
+
+#switch button svg {
+  fill: #ff0000; /* Substitua #ff0000 pela cor desejada */
 }
 
 .light #switch button {
