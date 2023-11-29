@@ -84,7 +84,7 @@ body * {
 }
 
 #switch button svg {
-  fill: #ff0000; /* Substitua #ff0000 pela cor desejada */
+  color: red;
 }
 
 .light #switch button {
