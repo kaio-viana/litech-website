@@ -54,7 +54,7 @@ function App() {
           <IonIcon icon={logoInstagram}></IonIcon>
         </a>
 
-        <a href="https://whatsapp.com" target="_blank">
+        <a href="#" target="_blank">
           <IonIcon icon={logoWhatsapp}></IonIcon>
         </a>
 
