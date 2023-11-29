@@ -5,13 +5,13 @@
 }
 
 :root {
-  --button-background: black;
+  --button-background: white;
   --text-color: white;
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color: rgba(255, 255, 255, 0.2);
-  --switch-bg-url: url(/sun.svg);
+  --switch-bg-url: url(/sun.svg) black;
 }
 
 .light {
@@ -21,7 +21,7 @@
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color: rgba(0, 0, 0, 0.1);
-  --switch-bg-url: url(/moon-stars.svg);
+  --switch-bg-url: url(/moon-stars.svg) white;
 }
 
 body {
