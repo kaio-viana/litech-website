@@ -1,5 +1,5 @@
 import { IonIcon } from '@ionic/react'
-import { logoInstagram, mail, logoWhatsapp, logoLinkedin } from 'ionicons/icons'
+import { logoInstagram, mail, logoWhatsapp } from 'ionicons/icons'
 import './App.css'
 
 function toggleMode() {
