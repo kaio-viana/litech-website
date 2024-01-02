@@ -1,5 +1,5 @@
 import { IonIcon } from '@ionic/react'
-import { logoInstagram, mail, logoWhatsapp, logoLinkedin } from 'ionicons/icons'
+import { logoInstagram, mail, logoWhatsapp } from 'ionicons/icons'
 import './App.css'
 
 function toggleMode() {
@@ -37,7 +37,7 @@ function App() {
         </li>
 
         <li>
-          <a href="#" target="_blank">Whatsapp</a>
+          <a href="https://api.whatsapp.com/send?phone=5511999894131" target="_blank">Whatsapp</a>
         </li>
 
         <li>
@@ -54,16 +54,12 @@ function App() {
           <IonIcon icon={logoInstagram}></IonIcon>
         </a>
 
-        <a href="#" target="_blank">
+        <a href="https://api.whatsapp.com/send?phone=5511999894131" target="_blank">
           <IonIcon icon={logoWhatsapp}></IonIcon>
         </a>
 
         <a href="mailto:contato@litech-ea.com.br" target="_blank">
           <IonIcon icon={mail}></IonIcon>
-        </a>
-
-        <a href="https://linkedin.com/in/" target="_blank">
-          <IonIcon icon={logoLinkedin}></IonIcon>
         </a>
       </div>
     </div>
