@@ -33,7 +33,7 @@ function App() {
 
       <ul>
         <li>
-          <a href="https://instagram.com/litech" target="_blank">Instagram </a>
+          <a href="https://instagram.com/litech.ea" target="_blank">Instagram </a>
         </li>
 
         <li>
@@ -50,7 +50,7 @@ function App() {
         </li>
       </ul>
       <div id="social-links">
-        <a href="https://instagram.com/litech" target="_blank">
+        <a href="https://instagram.com/litech.ea" target="_blank">
           <IonIcon icon={logoInstagram}></IonIcon>
         </a>
 
