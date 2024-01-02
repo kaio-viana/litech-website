@@ -61,7 +61,6 @@ function App() {
         <a href="mailto:contato@litech-ea.com.br" target="_blank">
           <IonIcon icon={mail}></IonIcon>
         </a>
-
       </div>
     </div>
   )
