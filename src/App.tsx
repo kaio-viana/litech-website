@@ -23,7 +23,7 @@ function App() {
           src="logo-white-circle.png"
           alt="Logo Li Tech"
         />
-        <p>@litech</p>
+        <p>@litech.ea</p>
       </div>
 
       <div id="switch" onClick={() => toggleMode()}>
